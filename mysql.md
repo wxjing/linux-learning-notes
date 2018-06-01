@@ -1,7 +1,11 @@
 [TOC]
 # 二进制安转
 > 1. cd /usr/local/src
-> 2. http://ftp.nchu.edu.tw/Unix/Database/MySQL/Downloads/MySQL-5.5/mysql-5.5.45-linux2.6-x86_64.tar.gz
+> 2. 下载
+> - 64位
+    - wget http://ftp.nchu.edu.tw/Unix/Database/MySQL/Downloads/MySQL-5.5/mysql-5.5.45-linux2.6-x86_64.tar.gz
+> - 32位
+    - wget http://ftp.nchu.edu.tw/Unix/Database/MySQL/Downloads/MySQL-5.5/mysql-5.5.45-linux2.6-i686.tar.gz
 > 3. tar zxf mysql-5.5.45-linux2.6-x86_64.tar.gz
 > 4. mv mysql-5.5.45-linux2.6-x86_64 /usr/local/mysql
 > 5. cd /usr/local/mysql
