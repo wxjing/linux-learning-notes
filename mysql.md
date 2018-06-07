@@ -27,12 +27,12 @@
 9. mkdir /var/run/mysqld
 10. chown mysql /var/run/mysqld
 11. chgrp mysql /var/run/mysqld
-12. ./bin/mysqld_safe --user=mysql & //启动mysql
+12. `./bin/mysqld_safe --user=mysql &` //启动mysql
 
 ## 链接mysql出错 (两种方法)
 > Cant`t connect to local MySQL server through socket
-1. ln /var/lib/mysql/mysql.sock /tmp/mysql.sock
-2. ./bin/mysql -S /var/lib/mysql/mysql.sock
+1. `ln /var/lib/mysql/mysql.sock /tmp/mysql.sock`
+2. `./bin/mysql -S /var/lib/mysql/mysql.sock`
 
 ## 修改root密码
 ```sql
