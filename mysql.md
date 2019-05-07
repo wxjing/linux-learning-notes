@@ -2,6 +2,9 @@
 # 二进制安转
 > 1. cd /usr/local/src
 > 2. 下载
+  - https://cdn.mysql.com//Downloads/MySQL-5.6/mysql-5.6.41-linux-glibc2.12-x86_64.tar.gz
+  - https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.12-linux-glibc2.12-x86_64.tar.xz
+  - https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-8.0.13.tar.gz
 > - 64位
     - wget http://mirrors.sohu.com/mysql/MySQL-5.5/mysql-5.5.55-linux2.6-x86_64.tar.gz
 > - 32位
