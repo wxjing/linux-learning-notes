@@ -97,3 +97,15 @@ ls &>/dev/null && echo yes || echo no
 
 # 环境变量文件加载顺序
 ![加载顺序](./images/WechatIMG498.jpeg)
+
+# 其他配置文件
+- .bash_history `历史命令`
+- .bash_logout `注销时生效的环境变量`
+
+# 登录显示信息
+- 登录前
+![加载顺序](./images/WechatIMG508.jpeg)
+![加载顺序](./images/WechatIMG507.jpeg)
+- 登录后
+`/etc/motd`
+`不管是本地登录，还是远程登录，都可以显示此欢迎信息`
