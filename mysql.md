@@ -47,6 +47,12 @@ desc users;
 
 ```sql
 update user set Password=password('root') where Host='localhost' and User='root';
+
+
+CREATE USER 'wxjing'@'%' IDENTIFIED BY 'A5A3WxJingpfXs';
+select Host,User,Password from mysql.user
+insert into mysql.user(Host,User,authentication_string)values("%","wxjing",password("A5A3WxJingpfXs"));
+grant all privileges on *.* to wxjing@'%' identified by 'A5A3WxJingpfXs';
 ```
 ## 删除其他用户
 ```sql
@@ -54,7 +60,8 @@ delete from user where Password='';
 ```
 ## 实现远程连接(授权法)
 ```sql
-grant all privileges  on *.* to root@'%' identified by "root";
+grant all privileges on *.* to root@'%' identified by 'A5A3pfXs';
+grant all privileges on *.* to root@'%' identified by "root";
 ```
 ## 刷新MySQL的系统权限相关表
 ```sql

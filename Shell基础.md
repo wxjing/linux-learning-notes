@@ -83,20 +83,9 @@ ls &>/dev/null && echo yes || echo no
 `命令1的正确输出作为命令2的操作对象`
 
 # 通配符
-![通配符](./images/WechatIMG502.jpeg)
-
-# 其他特殊符号
-![其他特殊符号](./images/WechatIMG501.jpeg)
-
-# 环境变量文件
-- /etc/profile
-- /etc/profile.d/*.sh
-- ~/.bash_profile
-- ~/.bashrc
-- /etc/bashrc
-
-# 环境变量文件加载顺序
-![加载顺序](./images/WechatIMG498.jpeg)
+![通配符](./images/通配符5-1.png)
+![通配符](./images/通配符5-2.png)
+![通配符](./images/通配符5-3.png)
 
 # 其他配置文件
 - .bash_history `历史命令`
